@@ -21,7 +21,9 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 ```
-Give the example
+1) python: download from https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe and install.
+2) numpy: open cmd and install this module by using the following command "pip install numpy"
+
 ```
 
 And repeat
