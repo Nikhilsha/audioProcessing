@@ -32,7 +32,7 @@ until finished
 
 
 
-## add audio fileto code 
+## add audio files 
 
 
 ```
@@ -57,7 +57,7 @@ This project is completed under IIT Bombay.
 
 ## Acknowledgments
 
-* my all group members sanjeev, mayank, gaurav
+* my all group members sanjeev, mayank and gaurav.
 
 
 
