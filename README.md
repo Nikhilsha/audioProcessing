@@ -18,8 +18,6 @@ This project lets you do extaction of notes present in audio.
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
-
 ```
 1) python: download from https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe and install.
 2) numpy: open cmd and install this module by using the following command "pip install numpy"
@@ -32,59 +30,34 @@ And repeat
 until finished
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+## add audio fileto code 
 
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
-Give an example
+1) save audio file in the same folder as Audio_1, Audio_2 similaraly add more files and change range in code 
+  example: if you have 5 audio files than use  "for file_number in range(1,6):"
+
+for file_number in range(1,6):
+    file_name = "Audio_"+str(file_number)+".wav"
+    sound_file = wave.open(file_name)
+    play(sound_file)
+    
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+### Result
 ```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+F8 B8 E6 E6 C7 G6 A6 A8 B7 G8 D8 F6 E6 A6 D8 
+``` 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is completed under IIT Bombay.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* my all group members sanjeev, mayank, gaurav
+
+
 
